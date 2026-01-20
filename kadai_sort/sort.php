@@ -11,7 +11,7 @@
         <?php
         $nums = [15, 4, 18, 23, 10 ];
 
-        function sort_2ways(array &$array, bool $order): void
+        function sort_2way(array &$array, bool $order): void
      {
     
         if ($order === true) {
@@ -28,9 +28,9 @@
        }
      }
 
-sort_2ways($nums, true);
+sort_2way($nums, true);
 
-sort_2ways($nums, false);
+sort_2way($nums, false);
 
 
         ?>
